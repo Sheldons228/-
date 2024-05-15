@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background: rgb(221, 220, 220);
+    background-size:cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 100vw;  
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+}
+
+.logo {
+    margin-top: 2vh;
+    font-size: 25px;
+    width: 5vw;
+    margin-left: 5vw;
+}
+
+ul {
+    margin-top: 6.5vh;
+    width: 55vw;
+    height: 3.5vh;
+    text-align: center;
+    margin-left: 35vw;
+}
+
+ul li {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    color: wheat;
+}
+
+ul li a {
+    text-decoration: none;
+    color: wheat;
+    background: linear-gradient(orange 0 0) bottom /var(--t, 0) 2px no-repeat;
+    transition: .5s;
+}
+
+ul li:hover {
+    color: wheat;
+    transition: 0.3s;
+    color: white;
+    --t: 100%;
+}
+
+main {
+    display: flex;
+    width: 100ph;
+    height: 35vh;
+    margin-top: 5ph;
+}
+
+.media {
+    width: 55vw;
+    margin-left: 400px;
+}
+
+.text {
+    width: 40vw;
+    margin-left: 200px;   
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 140px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.footer {
+    background: rgb(206, 206, 206);
+    margin-top: 360px;
+    height: 250px;
+}
+
+.img_1 {
+    
+    margin-top: 13%;
+    width: 35vw;
+}
+
+.img_2 {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+h4 {
+    color: rgb(77, 77, 77);
+    font-size: 15px;
+    margin-left: 150px;
+    width: 20vw;
+    margin-top: -100px;
+}
+
+h5 {
+    color: rgb(77, 77, 77);
+    font-size: 15px;
+    margin-left: 60px;
+    width: 30vw;
+    margin-top: -18px;
+}
+
+h6 {
+    color: black;
+    font-size: 18px;
+}
+
+.inform {
+    margin-left: 800px;
+    width: 30vw;
+    margin-top: -55px;
+}
+
+.verticalLine {
+    border-left: 1px solid rgb(175, 175, 175);
+    height: 188px;
+    margin-left: 750px;
+    margin-top: -146px;
+}
